@@ -1,0 +1,23 @@
+<div id="content" style="border:solid darkred 15px;">
+  <div class="hh1">PRODUCT DETAILS</div>
+  <p>&nbsp;</p>
+
+  <center>
+    <img src="/images/<%= product.image %>" style="width:400px" alt="" />
+  </center>
+
+  <div class="title"><%= product.name %></div>
+
+  <p class="size">
+    <%= product.description %><br /><br />
+    <b>Price:</b> $<%= product.price.toFixed(2) %><br /><br />
+
+    <a href="/cart/add/<%= product.code %>">Add to Cart</a>
+    &nbsp;&nbsp;
+    <a href="/cart">Goto Cart</a>
+    &nbsp;&nbsp;
+    <a href="/products">Back to Products</a>
+  </p>
+
+  <div style="clear:both"></div>
+</div>

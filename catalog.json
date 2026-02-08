@@ -1,0 +1,42 @@
+[
+  {
+    "code": "1",
+    "name": "GAMING CHAIR",
+    "description": "A comfortable gaming chair designed for long play sessions, featuring ergonomic support and a sleek, modern look.",
+    "price": 199.99,
+    "quantity": 20,
+    "image": "OIP.webp"
+  },
+  {
+    "code": "2",
+    "name": "GAMING PC",
+    "description": "A powerful gaming PC built to handle modern games smoothly, delivering reliable performance and fast load times.",
+    "price": 1299.99,
+    "quantity": 10,
+    "image": "desktop.webp"
+  },
+  {
+    "code": "3",
+    "name": "GAMING MONITOR",
+    "description": "A high quality gaming monitor designed for smooth visuals and immersive gameplay with a sleek, modern design.",
+    "price": 249.99,
+    "quantity": 15,
+    "image": "monitor.webp"
+  },
+  {
+    "code": "4",
+    "name": "GAMING MICROPHONE",
+    "description": "A clear and reliable gaming microphone designed for crisp voice communication during gaming and streaming.",
+    "price": 79.99,
+    "quantity": 25,
+    "image": "Gamingmic.webp"
+  },
+  {
+    "code": "5",
+    "name": "KEYBOARD & MOUSE BUNDLE",
+    "description": "A responsive keyboard and mouse bundle designed for precise control, comfort, and everyday gaming use.",
+    "price": 59.99,
+    "quantity": 30,
+    "image": "KBMOUSE.webp"
+  }
+]

@@ -1,0 +1,384 @@
+/*
+Design by Metamorphosis Design
+http://www.metamorphozis.com
+Released for free under a Creative Commons Attribution 2.5 License
+*/
+
+*
+{
+border: 0;
+margin: 0;
+}
+
+img
+{
+border: 0px;
+}
+
+body{
+	font: 12px Arial, Helvetica, sans-serif;
+	color: #000000;
+	background: url(images/bg.jpg) top repeat-x #000000;
+	line-height: 18px;
+}
+
+	
+#main {
+	width: 1018px;
+	margin: 0px auto 50px auto;
+	background:url(images/main.jpg) right top no-repeat;}
+
+#header { 
+	height: 112px;
+}
+
+#logo {	
+		height: 52px;
+		width: 210px;
+		padding: 53px 0px 0px 0px;
+		float: right;
+		text-align: right;
+}
+
+#logo H2 {
+
+		font-family: Arial, Helvetica, sans-serif;
+		color:#ffffff;
+		font-size:18px;
+		font-style:italic;
+		background: none;
+		text-align: right;
+		}
+
+#logo a {
+	text-decoration: none;
+	font-size: 14px;
+	color: #ffffff;
+}
+	
+#logo H2 a{
+	font-size: 12px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight:100;
+}
+
+#buttons{
+	text-align:center;
+	height: 36px;
+	margin-top: 20px;
+	padding-left: 0px;
+	background: url(images/buttons.png) left top no-repeat;
+	width: 612px;
+	float: left;
+}
+
+#buttons a {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	display: block;
+	float: left;
+	text-decoration: none;
+	color: #ffffff;
+	text-align: center;
+	padding-top: 4px;
+	height: 21px;
+	
+}
+
+.but {
+	width: 118px;
+}
+
+#buttons .but:hover {
+	background: url(images/but_hover.gif) center bottom no-repeat;
+	}
+	
+.but_razd { width: 5px;
+	height: 10px;
+	float:left;}
+	
+.top { height:337px;
+	   background:url(images/top.jpg) 10px 10px no-repeat #FFFFFF;}
+
+
+
+#content{
+	padding: 10px 10px 10px 10px;
+	background: #ffffff;
+}
+
+
+#left{
+	width: 625px;
+	float: left;
+	margin-left: 0px;
+}
+
+.img_l {	float:left;
+		margin: 3px 15px 3px 0px;
+}
+
+.img_r {	float: right;
+		margin: 9px 10px 3px 10px;
+}
+
+.span_cont {	color: #A50000;
+	font-size:12px;
+	font-weight:bold;
+}
+
+ h1{
+	font-size:16px;
+	font-weight: 100;
+	color: #FFFFFF;
+	text-align: left;
+	padding: 0px 0px 0px 0px;
+	background:url(images/h1.jpg) left top no-repeat;
+	padding: 6px 0px 6px 7px;
+}
+
+.hh1{
+	padding-top:10px;
+	font-size:2.0em;
+	font-weight: bolder;
+	color: darkred;
+	text-align: left;
+}
+
+ h2{
+	font-size:16px;
+	font-weight: 100;
+	color: #A50000;
+	text-align: left;
+	padding: 0px 0px 0px 0px;
+	background:url(images/h2.gif) bottom repeat-x;
+	padding: 3px 0px 2px 0px;
+	
+}
+
+h3 {font-family: Arial, Helvetica, sans-serif;
+	font-size:16px;
+	font-weight: bold;
+	color: #4ACBE2;
+	text-align: left;}
+
+.read {
+	font-size:12px;
+	color: #E40000;
+	text-decoration: underline;
+	font-weight:bold;
+	padding-right: 2px;
+	display:block;
+	height: 17px;
+	line-height: 17px;
+	width: 66px;
+	padding: 0px 0px 0px 0px;
+	text-align: center;
+	float: right;
+	margin-top: 4px;
+	
+}
+
+.read:hover {
+	font-size:12px;
+	text-decoration: none ;
+}
+
+
+
+#right{
+	float: right;
+	width: 335px;
+	margin-right: 0px;
+}
+
+.span_dat {
+	color: #000000;
+	text-decoration: underline;
+	font-weight: bold;
+	padding-bottom: 5px;}
+	
+#bottom {
+	background: url(images/bottom.gif) top repeat-x #A30000;
+	color: #000000;
+}
+
+#bottom_bot {
+	background: url(images/bottom.gif) 43px bottom no-repeat;
+	color: #FFFFFF;
+}
+
+#bottom h1 { 
+	color: #ffffff;
+	font-size: 16px;
+	font-weight: 100;
+	text-align: center;
+	padding: 5px 0px 5px 0px;
+	background: none;
+			}
+
+#b_col1 {
+	width: 304px;
+	float: left;
+	margin-left: 25px;
+}
+#b_col2 {
+	width: 305px;
+	float: left;
+	margin-left: 28px;
+}
+#b_col3 {
+	width: 270px;
+	float: left;
+	margin-left: 40px;
+	text-align: left;
+}
+
+
+.box_us {
+width: 270px;
+background: url(images/box_us.gif) 0px bottom repeat-x;
+}
+
+.box_us_l {
+width: 45px;
+float: left;
+padding-top:3px;}
+
+.box_us_r {
+width: 225px;
+float: left;}
+
+
+.spis_bot {
+	list-style:none;
+	padding: 0px 0px 0px 0px;}
+
+.spis_bot li {
+	padding: 5px 0px 0px 0px;
+	}
+	
+.spis_bot a {
+	color:#232323;
+	text-decoration:none;
+	font-weight: bold;
+	background: url(images/fish2.gif) 0px 12px no-repeat;
+	display: block;
+	font-weight:bold;
+	padding: 5px 0px 0px 23px;}
+.spis_bot a:hover {
+	color:#ffffff;
+	padding: 5px 0px 0px 28px;
+	text-decoration: none;
+	background:url(images/fish2.gif) 5px 12px no-repeat;
+	}
+	
+.fu_i {
+	margin: 0px 20px 0px 0px;
+	float: right;
+}
+
+#footer{
+	height: 63px;
+	font-size: 11px;
+	color: #ffffff;
+	text-align: left;
+	padding: 30px 25px 0px 25px;
+	background: url(images/footer.gif) top repeat-x #A30000;
+}
+
+#footer a{
+	color: #ffffff;
+	font-size: 11px;
+	text-decoration: none;
+}
+
+#footer a:hover{
+	color: #ffffff;
+	font-size: 11px;
+	text-decoration: underline;
+}
+
+.lh {
+	line-height: 22px;
+}
+
+
+
+/*=================================*/
+/* Nivo Slider Demo
+/* November 2010
+/* By: Gilbert Pellegrom
+/* http://dev7studios.com
+/*=================================*/
+
+
+#slider-wrapper {
+    width: 998px;
+    height: 330px;
+    margin:0 auto;
+	padding-top: 10px;
+}
+
+#slider {
+	position:relative;
+    width: 998px;
+    height: 330px;
+	background:url(images/loading.gif) no-repeat 50% 50%;
+}
+#slider img {
+	position:absolute;
+	top:0px;
+	left:0px;
+	display:none;
+}
+#slider a {
+	border:0;
+	display:block;
+}
+
+.nivo-controlNav {
+	position:absolute;
+	left: 400px;
+	bottom:-52px;
+
+}
+.nivo-controlNav a {
+	display:block;
+	width:22px;
+	height:22px;
+	background:url(images/circl.jpg) no-repeat;
+	text-indent:-9999px;
+	border:0;
+	margin-right:3px;
+	float:left;
+}
+.nivo-controlNav a.active {
+	background-position:0 -22px;
+		background:url(images/circl_hover.png) no-repeat;
+}
+
+.nivo-directionNav a {
+	display:block;
+	width:30px;
+	height:30px;
+	background:url(images/arrows.png) no-repeat;
+	text-indent:-9999px;
+	border:0;
+}
+a.nivo-nextNav {
+	background-position:-30px 0;
+	right:15px;
+}
+a.nivo-prevNav {
+	left:15px;
+}
+
+.nivo-caption {
+    text-shadow:none;
+    font-family: Helvetica, Arial, sans-serif;
+}
+.nivo-caption a { 
+    color:#efe9d1;
+    text-decoration:underline;
+}

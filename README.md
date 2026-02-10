@@ -9,10 +9,8 @@ This project was developed as part of my coursework to demonstrate backend routi
 ##  Features
 
 - Server side rendering using EJS
-- Express routing and middleware
-- Dynamic product rendering
-- Add to Cart functionality
-- Organized MVC style folder structure
+- Express routing 
+- Added CRUD functionality
 - Static asset management with Express
 - Responsive layout design
 
